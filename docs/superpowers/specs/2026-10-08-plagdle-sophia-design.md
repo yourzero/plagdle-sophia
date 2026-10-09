@@ -56,7 +56,7 @@ Validation test enforces: all fields present, enums valid, unique names, `incuba
 
 ## Comparison rules
 
-Each guess row renders one cell per attribute (10 attribute cells after the name). Result is `exact | partial | none`, with optional `direction: "up" | "down"` for numeric cells.
+Each guess row renders one cell per attribute (11 attribute cells after the name). Result is `exact | partial | none`, with optional `direction: "up" | "down"` for numeric cells.
 
 Categorical, case-insensitive:
 - `exact` if equal.
@@ -113,7 +113,7 @@ Column order: Disease, Vaccine, Etiology, Min Incubation, Max Incubation, Treatm
   Solved in N guesses (💡k hints)
   🔥 S-day streak            <- only if S > 1
 
-  <one emoji row per guess, 10 cells>
+  <one emoji row per guess, 11 cells>
 
   <site URL>
   ```
